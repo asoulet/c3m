@@ -1,0 +1,473 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix c3m:   <http://w3id.org/c3m/terms/> .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9713387440117441" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2002/07/owl#sameAs"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9794299125988782" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/elements/1.1/language"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9821078113109154" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/PX_object_type"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9946670706131153" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfBirth"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9979279042430904" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/object"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9728705381163677" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://dbpedia.org/ontology/field"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9776844741968389" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/Thing_from_Actor"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9776844741968389" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/Thing_acquired_by_Actor"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9933856868434217" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/isVersionOf"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9824631664336716" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "isSubject"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9894582437810747" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.openarchives.org/ore/terms/aggregates"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9943723985023722" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfDeath"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9885519184917796" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/hasFormat"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9952496498637835" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#broader"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.europeana.eu/schemas/edm/WebResource" ;
+  c3m:Likehood            "0.9883821732586344" ;
+  owl:MaximumCardinality  "2" ;
+  owl:Relation            "http://purl.org/dc/elements/1.1/source"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9996997374384458" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/language"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9816976058010247" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/placeOfBirth"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.openarchives.org/ore/terms/Proxy" ;
+  c3m:Likehood            "0.9839905806518019" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/isRelatedTo"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9867035420257011" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/professionOrOccupation"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9907679675881667" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdfs.org/ns/void#triples"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.europeana.eu/schemas/edm/WebResource" ;
+  c3m:Likehood            "0.9991325803560108" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/elements/1.1/format"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.996781809559553" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfTermination"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9997055870031831" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/collectionName"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9759659069131288" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://dbpedia.org/ontology/deathPlace"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9952004325667789" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/gender"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9985095996663376" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/preview"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9764060884611501" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/Thing_created_by_Actor"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9770482718179022" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/placeOfDeath"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.europeana.eu/schemas/edm/EuropeanaAggregation" ;
+  c3m:Likehood            "0.9989785196599251" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/elements/1.1/creator"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9818299642872453" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/Thing_found_by_Actor"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9886286812217366" ;
+  owl:MaximumCardinality  "2" ;
+  owl:Relation            "http://purl.org/dc/terms/issued"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.990652246611037" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/end"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9845748663897325" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#prefLabel"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9996997374384458" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/landingPage"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.996413451566304" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/ugc"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9839008827016037" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://dbpedia.org/ontology/birthPlace"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.990634593195107" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdfs.org/ns/void#property"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9984693078598894" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/isSimilarTo"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9891660611997386" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/biographicalInformation"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9985441144327523" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/dataProvider"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9723240931111757" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://dbpedia.org/property/field"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9833224653290332" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/conformsTo"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9977927990001477" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/isShownBy"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.w3.org/2004/02/skos/core#Concept" ;
+  c3m:Likehood            "0.993722916507229" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#note"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.996781809559553" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfEstablishment"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.europeana.eu/schemas/edm/WebResource" ;
+  c3m:Likehood            "0.9863109711843983" ;
+  owl:MaximumCardinality  "3" ;
+  owl:Relation            "http://purl.org/dc/elements/1.1/rights"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9996997374384458" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/country"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://www.europeana.eu/schemas/edm/WebResource" ;
+  c3m:Likehood            "0.9946114812199313" ;
+  owl:MaximumCardinality  "3" ;
+  owl:Relation            "http://purl.org/dc/terms/extent"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9987549200041601" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/isNextInSequence"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.987370183043847" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/Thing_is_referred_to_by_Actor"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.999770721646893" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/type"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9824631664336716" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.svv.lu/LMOnto#isSubject"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9896669842440283" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9905741493136183" ;
+  owl:MaximumCardinality  "4" ;
+  owl:Relation            "http://purl.org/dc/terms/created"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.988502497069708" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.researchspace.org/ontology/Event_by_Actor"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9711571181461517" ;
+  owl:MaximumCardinality  "5" ;
+  owl:Relation            "http://purl.org/dc/terms/isPartOf"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.99530262345547" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#notation"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9988950349854581" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/currentLocation"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995955947564565" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/isShownAt"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9893035215730083" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/begin"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9973055060157491" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9730832504753676" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/isFormatOf"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9973055060157491" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9924948719480695" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#exactMatch"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9996997355442758" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/provider"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9865477164114497" ;
+  owl:MaximumCardinality  "4" ;
+  owl:Relation            "http://www.svv.lu/LMOnto#hasSource"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9967216896188679" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.europeana.eu/schemas/edm/hasType"
+] .
