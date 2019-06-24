@@ -11,7 +11,7 @@ Arnaud Giacometti, Béatrice Markhoff and Arnaud Soulet, ISWC19 (research track)
 
 Just run the C3M class of the c3m package for launching the algorithm. By default, the program is running on DBpedia with an error threshold of 0.01 and a minimum likelihood threshold of 0.97.
 
-Alternatively, there is runnable jar in the runnable directory.
+Alternatively, there is a runnable jar in the runnable directory.
 
 ## Results
 
