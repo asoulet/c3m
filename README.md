@@ -1,4 +1,4 @@
-# c3m: Contextual Cardinality Constraint Mining
+# C3M: Contextual Cardinality Constraint Mining
 
 Semantic Web connects huge knowledge bases whose content has been generated from collaborative platforms and by integration of heterogeneous databases. Naturally, these knowledge bases are incomplete and contain erroneous data. Knowing their data quality is an essential long-term goal to guarantee that querying them returns reliable results. Having cardinality constraints for roles would be an important advance to distinguish correctly and completely described individuals from those having data either incorrect or insufficiently informed. This work proposes a method for automatically discovering from the knowledge base's content the maximum cardinality of roles for each concept, when it exists. This method is robust thanks to the use of Hoeffding's inequality. More precisely, C3M is designed for an exhaustive search of such constraints in a knowledge base benefiting from pruning properties that drastically reduce the search space. 
 
