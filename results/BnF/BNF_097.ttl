@@ -1,0 +1,711 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix c3m:   <http://w3id.org/c3m/terms/> .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9956833248722273" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/placeOfDeath"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9966647277290894" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/birthday"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9971749809038531" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/ouvrageJeunesse"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9964715229788351" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r3210"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9982566469880946" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2000/01/rdf-schema#label"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9738197399219731" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r900"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9994874775331496" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/dateOfPublicationManifestation"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9972353740394134" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfDeath"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995127587722542" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/type"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9937804095170404" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://schema.org/location"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9988789189865349" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/familyName"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9875353294820675" ;
+  owl:MaximumCardinality  "2" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/biographicalInformation"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9807104733044772" ;
+  owl:MaximumCardinality  "5" ;
+  owl:Relation            "http://www.w3.org/2002/07/owl#sameAs"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9921890988307897" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/coordonneesLambert"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.99669152927954" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/dateOfCapture"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995127587722542" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/RDARelationshipsWEMI/expressionManifested"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9947368002564452" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/projectionOfCartographicProjection"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995751066749979" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/modified"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9962244644907695" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/coordinatesOfCartographicContent"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9987923007094637" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://isni.org/ontology#identifierValid"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9949283671336862" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfTermination"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9946312247393015" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/cote"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9753947712075384" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/rcp"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.998691293964235" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/gender"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb119314762" ;
+  c3m:Likehood            "0.9728891615166637" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/ontology/bibo/isbn10"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9868200095858181" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r3250"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9720286960004978" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/rth"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9969597963569761" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/scale"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb119314762" ;
+  c3m:Likehood            "0.991987642717632" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/org"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9906493499430172" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/languageOfThePerson"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9955605347999487" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/cadreGeographique"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb11932882b" ;
+  c3m:Likehood            "0.9739824243398736" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r150"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9796240478664056" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://schema.org/sameAs"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.995056465560815" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/dst"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9705491876594353" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995816242906982" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/created"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9858523792987992" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/periodOfActivityOfThePerson"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb11932843f" ;
+  c3m:Likehood            "0.9746849230846681" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r530"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9702165076299903" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9988573623604918" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/givenName"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9851995129486274" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/corporateHistory"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9962911284514874" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/ontology/mo/genre"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9748926058136427" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/date"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb11932882b" ;
+  c3m:Likehood            "0.9739824243398736" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/ctg"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9987621403343644" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/ean"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9729332785311865" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#inScheme"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9921899265417273" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/referenceIGN"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995124826478163" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/date"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb11975999w" ;
+  c3m:Likehood            "0.9749915982743779" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/RDARelationshipsWEMI/workManifested"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9966813204033425" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/placeOfBirth"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9945376025575955" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/description"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9951399800826598" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r30"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.997406786287566" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfBirth"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9806520489108852" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/isan"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9898101864408861" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/ismn"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9720286960004978" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r910"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9963726553647574" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/numberingOfIssue"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9990215705696163" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/page"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9874214574932481" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/note"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9973854905665844" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/placeAssociatedWithTheCorporateBody"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995292329620198" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/firstYear"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9960731352336777" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/frequency"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9975693354514665" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://vocab.org/bio/0.1/birth"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9990059351510158" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2004/02/skos/core#prefLabel"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9958842292606943" ;
+  owl:MaximumCardinality  "2" ;
+  owl:Relation            "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9836419999299001" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/prt"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9971213933453615" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/ontology/bibo/issn"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9989667949365184" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/name"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb11975999w" ;
+  c3m:Likehood            "0.970213381785587" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r220"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9987825487931555" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/countryAssociatedWithThePerson"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9921899265417273" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdf.insee.fr/geo/code_commune"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9868391052499356" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://id.loc.gov/vocabulary/relators/pbl"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995074931968884" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/publisher"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9970341221284437" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/abstract"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.988755150624519" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/publishersName"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9966119488559828" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/placeOfCapture"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.991744338451988" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r4090"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.99917892039932" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/placeOfPublication"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9738865788004333" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.openarchives.org/ore/terms/isAggregatedBy"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995744327031363" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://xmlns.com/foaf/0.1/focus"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9741462166702123" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/language"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9967976006288222" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/ElementsGr2/dateOfEstablishment"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9875481904216199" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/designationOfEdition"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb120987752" ;
+  c3m:Likehood            "0.9745301451497596" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/RDARelationshipsWEMI/electronicReproduction"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9964614988480636" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/dateOfWork"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9975759126677343" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://vocab.org/bio/0.1/death"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9936579788662916" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/placeOfProduction"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9796514624280245" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r110"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995258813415671" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/title"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9830811120815206" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r3100"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9975108621095031" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://rdvocab.info/Elements/placeOfOriginOfTheWork"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb119314762" ;
+  c3m:Likehood            "0.9759087027868594" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/ontology/bibo/isbn13"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9995761080254626" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/FRBNF"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9813882393063842" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r320"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9980132426948567" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/lastYear"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9795925090335015" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/creator"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://dewey.info/class/760/" ;
+  c3m:Likehood            "0.9862025079760318" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://purl.org/dc/terms/subject"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://data.bnf.fr/ark:/12148/cb119314762" ;
+  c3m:Likehood            "0.9982441583899674" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.9952469569786797" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "null" ;
+  c3m:Likehood            "0.983647896721498" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/vocabulary/roles/r3060"
+] .
+
+[ a                       c3m:ContextualMaxCardinality ;
+  c3m:Context             "http://dewey.info/class/760/" ;
+  c3m:Likehood            "0.9919449389384726" ;
+  owl:MaximumCardinality  "1" ;
+  owl:Relation            "http://data.bnf.fr/ontology/bnf-onto/subject"
+] .
