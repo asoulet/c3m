@@ -5,7 +5,7 @@ Semantic Web connects huge knowledge bases whose content has been generated from
 ## Publication
 
 *Mining Significant Maximum Cardinalities in Knowledge Bases.*
-Arnaud Giacometti, Béatrice Markhoff and Arnaud Soulet, ISWC19 (research track).
+[Arnaud Giacometti](http://www.info.univ-tours.fr/~giaco/), [Béatrice Markhoff](http://www.info.univ-tours.fr/~markhoff/) and [Arnaud Soulet](http://www.info.univ-tours.fr/~soulet/), [ISWC19](https://iswc2019.semanticweb.org/) (research track).
 
 ## Running C3M
 
