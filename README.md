@@ -9,7 +9,7 @@ Semantic Web connects huge knowledge bases whose content has been generated from
 
 ## Running C3M
 
-Just run the C3M class of the c3m package for launching the algorithm (in c3m-code directory). By default, the program is running on DBpedia with an error threshold of 0.01 (`delta`) and a minimum likelihood threshold of 0.97 (`minLikelihood `).
+Just run the C3M class of the c3m package for launching the algorithm (in c3m-code directory). For this purpose, you have to create a new project and to add the jar files present in lib directory. By default, the program is running on DBpedia with an error threshold of 0.01 (`delta`) and a minimum likelihood threshold of 0.97 (`minLikelihood `).
 
 Alternatively, there is a runnable jar in the [runnable directory](https://github.com/asoulet/c3m/tree/master/runnable).
 
