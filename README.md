@@ -18,3 +18,5 @@ For using another SPARQL endpoint, you just have to change the line 14 in `c3m-c
 ## Results
 
 The [result directory](https://github.com/asoulet/c3m/tree/master/results) provides the execution of C3M on 4 SPARQL endpoints: DBpedia, YAGO, BNF, EUROPEANA. The results are given in CSV and TTL format. The file `c3mOntology.owl` presents the ontology used in TTL files (which is useful for publishing results). Note that c3m only outputs the constraints in CSV format.
+
+Note that all the results are computed in June 2019.
