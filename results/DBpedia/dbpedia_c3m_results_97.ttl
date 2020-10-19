@@ -1,3 +1,9 @@
+# Results of C3M algorithm for DBpedia triplestore
+# Arnaud Giacometti, Béatrice Markhoff, Arnaud Soulet:
+# Mining Significant Maximum Cardinalities in Knowledge Bases. ISWC (1) 2019: 182-199
+#
+# This work is licensed under a Creative Commons Attribution 4.0 Unported License
+
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix c3m:   <http://w3id.org/c3m/terms/> .
