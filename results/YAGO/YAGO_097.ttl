@@ -1,3 +1,9 @@
+# Results of C3M algorithm for YAGO triplestore
+# Arnaud Giacometti, Béatrice Markhoff, Arnaud Soulet:
+# Mining Significant Maximum Cardinalities in Knowledge Bases. ISWC (1) 2019: 182-199
+#
+# This work is licensed under a Creative Commons Attribution 4.0 Unported License
+
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
