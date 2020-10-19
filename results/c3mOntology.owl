@@ -1,3 +1,9 @@
+# This file is the ontology used by C3M algorithm
+# Arnaud Giacometti, Béatrice Markhoff, Arnaud Soulet:
+# Mining Significant Maximum Cardinalities in Knowledge Bases. ISWC (1) 2019: 182-199
+#
+# This work is licensed under a Creative Commons Attribution 4.0 Unported License
+
 @prefix : <http://w3id.org/c3m/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
