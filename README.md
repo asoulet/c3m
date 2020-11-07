@@ -9,9 +9,9 @@ Semantic Web connects huge knowledge bases whose content has been generated from
 
 ## Running C3M
 
-Just run the C3M class of the c3m package for launching the algorithm (in c3m-code directory). For this purpose, you have to create a new project and to add the jar files present in lib directory. By default, the program is running on DBpedia with an error threshold of 0.01 (`delta`) and a minimum likelihood threshold of 0.97 (`minLikelihood `).
+Create an executable jar with `mvn -Plocal package` and then execute `java -jar c3m.jar`.
 
-Alternatively, there is a runnable jar in the [runnable directory](https://github.com/asoulet/c3m/tree/master/runnable).
+By default, the program is running on DBpedia with an error threshold of 0.01 (`delta`) and a minimum likelihood threshold of 0.97 (`minLikelihood `).
 
 For using another SPARQL endpoint, you just have to change the line 14 in `c3m-code/src/c3m/C3M.java` for modifying the variable `triplestore` (e.g., value `Triplestore.YAGO` for mining constraint in YAGO).
 
